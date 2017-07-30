@@ -1,5 +1,6 @@
 package com.cheetah.store.controller;
 
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -12,6 +13,7 @@ import com.cheetah.store.serviceImpl.PersonServiceImpl;
 public class ApiController {
 
 	@RequestMapping("/api/{id}")
+	@CrossOrigin(origins = "http://localhost")
 	public String getPersonName(@PathVariable(value = "id") String id) {
 		PersonService personService = new PersonServiceImpl();
 		Person person = personService.getPerson(id);
