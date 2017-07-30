@@ -11,7 +11,7 @@ var vue=new Vue({
 	el:'#app',
 	data: {message: 'aaa'},
 	created: function(){
-		 axios.get('api/2').then(function(response) {
+		 axios.get('api/0').then(function(response) {
 			vue.$data.message=response.data;
 		}).catch(function(error){
 			console.log(error);

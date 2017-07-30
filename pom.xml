@@ -2,10 +2,10 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.cheetah.manangement</groupId>
-  <artifactId>wedding_dress_store</artifactId>
+  <artifactId>wedding-dress-store</artifactId>
   <packaging>war</packaging>
   <version>0.0.1-SNAPSHOT</version>
-  <name>wedding_dress_store Maven Webapp</name>
+  <name>wedding-dress-store Maven Webapp</name>
   <url>http://maven.apache.org</url>
   <properties>
         <!-- spring版本号 -->
@@ -115,6 +115,6 @@
         </dependency>--> 
   </dependencies>
   <build>
-    <finalName>wedding_dress_store</finalName>
+    <finalName>wedding-dress-store</finalName>
   </build>
 </project>

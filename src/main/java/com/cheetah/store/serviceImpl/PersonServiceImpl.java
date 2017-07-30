@@ -10,7 +10,8 @@ public class PersonServiceImpl implements PersonService {
 
 	@Override
 	public Person getPerson(String id) {
-		return personDAO.getPerson(id);
+		personDAO=new PersonDAO();
+		return personDAO.getById(id);
 	}
 
 }
